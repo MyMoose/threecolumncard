@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0 auto;
+}
+
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+body img{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+body h2{
+    font-family: 'Big Shoulders Display', cursive;    
+    padding: 20px;
+    color: hsl(0, 0%, 95%);
+    
+}
+
+body p{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+body button{
+    border-radius:30px;
+    
+    margin: 1em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+body button:hover{
+    cursor:grab;
+}
+
+
+
+.row{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 75vh;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.sedancard{
+    background-color: hsl(31, 77%, 52%)
+}
+.sedancard button:hover{
+    background-color:hsl(31, 77%, 52%);    
+}
+.sedancard button p{
+    color:hsl(31, 77%, 52%);
+}
+.sedancard button p:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.suvcard{
+    background-color: hsl(184, 100%, 22%)
+}
+.suvcard button:hover{
+    background-color: hsl(184, 100%, 22%)
+}
+.suvcard button p{
+    color:hsl(184, 100%, 22%)
+}
+.suvcard button p:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+.luxurycard{
+    background-color: hsl(179, 100%, 13%)
+}
+.luxurycard button p{
+    color:hsl(179, 100%, 13%)
+}
+.luxurycard button:hover{
+    background-color: hsl(179, 100%, 13%)
+}
+.luxurycard button p:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
